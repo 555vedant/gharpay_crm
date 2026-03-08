@@ -87,7 +87,7 @@ export default function LeadForm() {
         <div className="form-group">
           <label className="form-label">Lead Source</label>
           <select
-            className="form-input"
+            className="form-select"
             value={source}
             onChange={(e) => setSource(e.target.value)}
           >
